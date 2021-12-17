@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SchedulerTasksTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SchedulerTasksTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.sample.task.html">com.sample.task</a> &gt; SchedulerTasksTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.262s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testTask()</td>
+<td class="success">0.262s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>08:22:21.942 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:22:21.951 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:22:21.978 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.sample.task.SchedulerTasksTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+08:22:21.986 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sample.task.SchedulerTasksTest], using SpringBootContextLoader
+08:22:21.990 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sample.task.SchedulerTasksTest]: class path resource [com/sample/task/SchedulerTasksTest-context.xml] does not exist
+08:22:21.990 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.sample.task.SchedulerTasksTest]: class path resource [com/sample/task/SchedulerTasksTestContext.groovy] does not exist
+08:22:21.990 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sample.task.SchedulerTasksTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:22:21.991 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sample.task.SchedulerTasksTest]: SchedulerTasksTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:22:22.024 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.sample.task.SchedulerTasksTest]
+08:22:22.073 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/a1101517/IdeaProjects/test/multi-module-sample/multi-scheduler/build/classes/java/main/com/sample/SchedulerApplication.class]
+08:22:22.074 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sample.SchedulerApplication for test class com.sample.task.SchedulerTasksTest
+08:22:22.170 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.sample.task.SchedulerTasksTest]: using defaults.
+08:22:22.170 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+08:22:22.178 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+08:22:22.185 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@37fe8354, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@510146e2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4f65e3b1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ef22d71, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d55edd8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26b882c6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@462085cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@6916b1db, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3bffba0c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5933a107, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b7f7937, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@47bb8bea, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@15276cb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@45adc47f]
+08:22:22.190 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3f52915d testClass = SchedulerTasksTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3c27970d testClass = SchedulerTasksTest, locations = '{}', classes = '{class com.sample.SchedulerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{app.scheduling.enable=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@42a1ae6c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6a0c0992, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4f576d0e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@b9266fa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@62022445, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4f99c971], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+08:22:22.208 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3f52915d testClass = SchedulerTasksTest, testInstance = com.sample.task.SchedulerTasksTest@126a4485, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3c27970d testClass = SchedulerTasksTest, locations = '{}', classes = '{class com.sample.SchedulerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{app.scheduling.enable=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@42a1ae6c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6a0c0992, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4f576d0e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@b9266fa, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@62022445, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4f99c971], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+08:22:22.236 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, app.scheduling.enable=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+?[2m2021-12-17 08:22:22.638?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasksTest      ?[0;39m ?[2m:?[0;39m Starting SchedulerTasksTest using Java 1.8.0_281 on 1101517M01 with PID 5964 (started by a1101517 in /Users/a1101517/IdeaProjects/test/multi-module-sample/multi-scheduler)
+?[2m2021-12-17 08:22:22.639?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasksTest      ?[0;39m ?[2m:?[0;39m The following profiles are active: local
+?[2m2021-12-17 08:22:23.298?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasksTest      ?[0;39m ?[2m:?[0;39m Started SchedulerTasksTest in 1.058 seconds (JVM running for 1.997)
+?[2m2021-12-17 08:22:23.530?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasks          ?[0;39m ?[2m:?[0;39m [taskTestScheduler] START
+?[2m2021-12-17 08:22:23.530?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.core.service.TestServiceImpl ?[0;39m ?[2m:?[0;39m TestServiceImpl.doAnything
+?[2m2021-12-17 08:22:23.552?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.core.dao.TestDaoImpl         ?[0;39m ?[2m:?[0;39m TestDaoImpl.getTestData
+?[2m2021-12-17 08:22:23.553?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasks          ?[0;39m ?[2m:?[0;39m [taskTestScheduler] ID : moya
+?[2m2021-12-17 08:22:23.555?[0;39m ?[32m INFO?[0;39m ?[35m5964?[0;39m ?[2m---?[0;39m ?[2m[    Test worker]?[0;39m ?[36mcom.sample.task.SchedulerTasks          ?[0;39m ?[2m:?[0;39m [taskTestScheduler] NAME :junhyun
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 2021. 12. 17 오전 8:22:23</p>
+</div>
+</div>
+</body>
+</html>

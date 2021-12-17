@@ -1,0 +1,10 @@
+bootJar {
+    enabled(false)
+}
+jar {
+    enabled(true)
+}
+//해당 모듈만 필요한 dependency를 넣는다
+dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+}

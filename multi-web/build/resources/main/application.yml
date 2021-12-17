@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+  output:
+    ansi:
+      enabled: always
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

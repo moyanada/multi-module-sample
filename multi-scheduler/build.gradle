@@ -1,0 +1,4 @@
+//해당 모듈만 필요한 dependency를 넣는다
+dependencies {
+    implementation group: 'joda-time', name: 'joda-time', version: '2.9.9'
+}
